@@ -1,3 +1,29 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+*{
+  margin: 0;
+  padding: 0;
+}
+header{
+  padding: 20px;
+  /* background-color: #000000; */
+}
+li{
+  list-style: none;
+}
+.navigation{
+  margin: 0 auto;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+}
+.nav-right-section{
+  display: flex;
+}
+.logo-img{
+  height: 2rem;
+}
+.active{
+  color: aqua;
+}

@@ -1,4 +1,5 @@
 import Details from "../pages/details";
+import Movie from "../pages/movies";
 
 const { createBrowserRouter } = require("react-router-dom");
 const { default: Home } = require("../pages/home");
@@ -16,6 +17,10 @@ const routes=createBrowserRouter([
             {
                 path:'/details',
                 element:<Details></Details>
+            },
+            {
+                path:'/movies',
+                element:<Movie></Movie>
             }
         ]
     }
