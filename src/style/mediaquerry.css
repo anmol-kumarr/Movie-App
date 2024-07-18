@@ -1,0 +1,34 @@
+@media(max-width: 480px) {
+    body {
+        background-color: lightgreen;
+    }
+    /* .navigation{
+
+    } */
+    .mobile-nav {
+        opacity: 1;
+        display: flex;
+        padding: 15px;
+        background-color: black;
+        color: white;
+        justify-content: space-between;
+        font-size: 0.8em;
+        width: 100%;
+        position: fixed;
+        bottom: 0px;
+
+    }
+    .logo-img{
+        min-height:1.7rem;
+        min-width:1.7rem;
+    }
+
+    .search-field {
+        /* opacity: 0; */
+        display: none;
+    }
+
+    .nav-icon {
+        font-size: 1.3rem;
+    }
+}
